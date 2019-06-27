@@ -1,0 +1,196 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	border: 2px solid black;
+	height: 100%;
+	margin: 0;
+}
+
+main {
+	position: relative;
+}
+
+         /******Header********/
+
+header {
+	background-color: #3E3544;
+	background-size: 902px;
+	color: white;
+}
+
+form {
+	margin-left: 600px;
+}
+
+		/********Navigation********/
+
+nav {
+	background-color: #9A969C;
+    border-right: 2px solid #3E3544;
+	float: left;
+	position: absolute;
+    width: 178px;
+    height: 235vh;
+}
+
+ul {
+	display: block;
+	list-style-type: none;
+}
+
+li {
+	margin-bottom: 35px; 
+	text-decoration: none; 				
+}
+
+.nav-dog-icon {
+	border-radius: 50%;
+	width: 115px;
+	height: 115px;
+	margin: 15px 25px 50px 25px;
+}
+
+a {
+	color: black;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+h1 {
+	float: right;
+	font-weight: 400;
+	margin-top: 70px;
+	margin-right: 180px		
+}
+
+span {
+	font-weight: 800;
+}
+
+.input-name {
+	height: 50px;
+	width: 400px;
+	border-radius: 3px;
+}
+
+label {
+	margin-bottom: 5px;
+	margin-right: 210px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+}
+
+.button1 {
+	background-color: #9A969C;
+	border-radius: 3px;
+	color: #3E3544;
+    font-size: 16px;
+	margin-bottom: 91px;
+    margin-right: 70px;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+}
+
+.heading-dog {
+	border: 5px solid #9A969C;
+	border-radius: 50%;
+	height: 321px;
+	width: 321px;
+	margin: 10px 25px 10px 225px;
+}
+
+		/********Main Container**********/
+
+.how-dog1-image, 
+.what-dog2-image, 
+.facts-dog3-image {
+	margin: 62px 25px 40px 50px;
+	border: 5px solid #9A969C;
+	border-radius: 50%;
+	height: 181px;
+	width: 181px;
+}
+
+section {
+	margin-left: 178px;
+	width: 906;
+	height: 100%;
+}
+
+article {
+	width: 902px;
+	display: inline-block;
+	border-bottom: 1px solid #9A969C;
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	text-align: left;
+	padding-left: 68px;
+	position: absolute;
+}
+
+.how, 
+.what, 
+.facts {
+	display: inline;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 64px 70px 148px 10px;
+	position: absolute;
+}
+
+.button {
+	background-color: #3E3544;
+	border-radius: 3px;
+	color: #ffffff;
+	float: right;
+	font-size: 16px;
+	height: 40px;
+    margin: 160px 70px 75px 408px;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+}
+
+/********Footer*********/
+
+.footer {
+	color: white;
+	background-color: #3E3544;
+	height: 15rem;
+}
+
+h3 {
+	margin-left: 400px;
+	font-size: 25px;
+	font-weight: 700;
+	position: absolute;
+}
+
+.SM-links {
+	display: inline-block;
+	float: right;
+	height: 150px;
+	width: 125px;
+    margin: 10px 30px 10px 10px;
+}
+
+.twitter, 
+.insta, 
+.FB, 
+.LI {
+	border: none;
+	float: right;
+	width: 41px;
+	margin: 8px;
+}

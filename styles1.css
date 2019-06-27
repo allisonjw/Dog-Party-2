@@ -1,0 +1,225 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin: 0;
+}
+
+main {
+	border: 2px solid black;
+	width: 100%;
+}
+
+     /************Navigation**********/
+
+nav	{
+	background-color: #75e2e6;
+    border-bottom: 2px solid #048eaa;
+    width: 100%;
+}    
+
+ul {
+	float: right;
+	margin-top: 15px;
+	color: black;
+}
+
+li {
+	display: inline;
+	font-size: 15px;
+	margin-right: 20px; 
+}
+
+.nav-dog-icon {
+	border-radius: 50%;
+	height: 41px;
+	margin: 8px 0 0 10px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+         /*********Header***********/
+
+header {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("images/park.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 400;
+	margin: 0;
+	padding-top: 30px;
+}
+
+span {
+	font-weight: 800;
+}
+
+.input-name {
+	border-radius: 2px;
+	height: 40px;
+	width: 325px;
+}
+
+label {
+	border-radius: 3px;
+	display: inherit;
+	margin-bottom: 5px;
+	margin-right: 285px;
+}
+
+.button1 {
+	background-color: #75e2e6;
+    border-radius: 2px;
+	color: black;
+    font-size: 16px;
+    height: 40px;
+    margin: 10px 0 17px 0;
+    text-align: center;
+    width: 325px;
+}
+
+.heading-dog {
+	border: 4px solid #048eaa;
+	border-radius: 50%;
+	height: 165px;
+	margin: 15px;
+	width: 165px;
+}
+
+     /********Main Container**********/
+
+.how-dog1-image, 
+.what-dog2-image, 
+.facts-dog3-image {
+	border-radius: 50%;
+	border: 4px solid #048eaa;
+	margin-left: 60px;
+	width: 165px;
+}
+
+section	{
+	display: block;
+}
+
+article {
+	display: inline-block;
+	margin-left: 1%;
+	width: 31%;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	text-align: center;
+}
+
+.how, 
+.what, 
+.facts {
+	margin-bottom: 10px;
+	width: 250px;
+}
+
+.button {
+	background-color: #048eaa;
+	border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+	height: 35px;
+	margin: 35px 0 25px 0;
+	width: 250px;
+}
+
+
+/********Footer*********/
+
+.footer {
+	clear: both;
+	height: 155px;
+	text-align: center;
+	background-color: #048eaa
+}
+
+h3 {
+	color: white;
+	font-weight: 400;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.twitter, 
+.insta, 
+.FB, 
+.LI {
+	height: 35px;
+	width: 55px;
+}
+
+@media screen and (max-width: 800px) {
+	
+	/*section {
+	  width: 100%;
+	}*/
+
+	article {
+	  width: 90%;
+	}
+
+	h2 {
+	  text-align: center;
+	}
+
+	.how-dog1-image, 
+	.what-dog2-image, 
+	.facts-dog3-image {
+	  margin-left: 37%;
+	}
+
+	.how, 
+	.what, 
+	.facts {
+	  margin-left: 32%;
+    }
+
+	.button {
+      margin-left: 32%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	
+	/*section {
+	  width: 100%;
+	}*/
+
+	article {
+/*float: left;*/
+	  /*height: 425px;*/
+	  width: 100%;
+	}
+
+	.how, 
+	.what, 
+	.facts {
+	  margin-bottom: 10px;
+	  width: 75%%;
+    }
+
+	.button {
+      height: 35px;
+	  margin-top: 35px;
+	  width: 75%%;
+	}
