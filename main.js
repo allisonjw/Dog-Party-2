@@ -1,6 +1,6 @@
 var newName = document.getElementById('name');
 var changeName = document.getElementById('change-dog-name');
-var nameGiven = document.querySelector('.input-name');
+var nameGiven = document.getElementById('input-name');
 var button1 = document.getElementById('button1');
 var button2 = document.getElementById('button2');
 var button3 = document.getElementById('button3');

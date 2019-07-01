@@ -3,23 +3,18 @@
 *:before {
   box-sizing: border-box;
   margin: 0;
-  border: 1px solid red;
 }
-/*
+
 body {
-	
-	margin: 0;
-}*/
+	border: 2px solid black;
+	font-family: 'Roboto Slab', serif;
+	margin: auto;
+	width: 80%;
+}
 
 main {
-	border-bottom: 2px solid black;
-	font-family: 'Roboto Slab', serif;
-	font-weight: 400;
 	position: relative;
-	margin-right: auto;
-	margin-left: auto;
 }
-
 
 		/********Navigation********/
 
@@ -33,25 +28,24 @@ nav {
 
 .nav-dog-icon {
 	border-radius: 50%;
-	margin: 15px 25px 80px 15px;
-	height: 127px;
-	width: 127px;
+	display: block;
+	height: 134px;
+	margin: 20px 30px 60px 20px;
+	width: 134px;
 }
 
-ul {
+ul, a {
+	color: black;
+	display: block;
+	font-size: 18px;
+	font-weight: 700;
 	list-style-type: none;
-	padding-left: 10px;
+	margin: auto;
+	text-decoration: none;
 }
 
 li {
 	margin-bottom: 35px; 
-}
-
-a {
-	color: black;
-	/*font-size: 18px;
-	font-weight: 700;*/
-	text-decoration: none;
 }
 
          /******Header********/
@@ -60,138 +54,136 @@ header {
 	background-color: #3E3544;
 	background-size: 902px;
 	color: white;
+	float: right;
+	width: 85%;
 }
 
-form {
-	height: 200px;
-    margin-left: 55%;
-    position: absolute;
-    top: 120px;
-    width: 30%;
+.heading-dog {
+	border-radius: 50%;
+    border: 7px solid #9A969C;
+    margin: 18px 25px 18px 45px;
+    width: 326px;
 }
 
 h1 {
-	font-size: 39px;
-    font-weight: 200;
-    margin-left: 55%;
-    padding-top: 50px;
+	font-size: 35px;
+    font-weight: 100;
+    margin-left: 40%;
+    padding-top: 60px;
     position: absolute;
 }
 
 span {
-	font-weight: 800;
+	font-weight: 700;
 }
 
-.input-name {
-	border-radius: 3px;
+form {
+    margin-left: 40%;
+    position: absolute;
+    top: 135px;
+}
+
+input, 
+.button1 {
     height: 50px;
-    margin: 10px 0 20px 0;
     width: 400px;
+}
+
+input {
+	border-radius: 3px;
+    margin: 10px 0 20px 0;
+
 }
 
 label {
 	border-radius: 3px;
-	margin-bottom: 0 210px 5px 0;
+	display: block;
 }
 
 .button1 {
 	background-color: #9A969C;
 	border-radius: 3px;
-	color: #3E3544;
+	border: none;
     font-size: 16px;
-    height: 50px;
-	margin-bottom: 0 70px 91px 0;
-    text-align: center;
-    width: 400px;
-}
-
-.heading-dog {
-	border-radius: 50%;
-    border: 5px solid #9A969C;
-    margin: 15px 25px 10px 239px;
-    width: 326px;
+    font-weight: 700;
 }
 
 		/********Main Container**********/
+
+section {
+	float: right;
+	width: 85%;
+}
+
+article {
+	display: inline-block;
+}
+
+h2 {
+	font-size: 27px;
+	margin-top: 26px;
+	padding-left: 66px;
+}
 
 .how-dog1-image, 
 .what-dog2-image, 
 .facts-dog3-image {
 	border-radius: 50%;
 	border: 5px solid #9A969C;
-	height: 181px;
-	margin: 62px 25px 40px 50px;
-	width: 181px;
-}
-
-section {
-	height: 100%;
-	margin-left: 178px;
-}
-
-article {
-	display: inline-block;
-	width: 100%
-}
-
-h2 {
-	font-weight: 700;
-	padding-left: 68px;
-	position: absolute;
-	text-align: left;
+	height: 210px;
+	margin: 15px 0 20px 41px;
+	width: 210px;
 }
 
 .how, 
 .what, 
 .facts {
-	display: inline;
-	font-size: 18px;
+	color: #5c5a5e;
+	float: right;
+	font-size: 20px;
 	font-weight: 300;
-	margin: 64px 70px 148px 10px;
-	position: absolute;
+	margin: 10px 49px 0 0;
+	width: 68%;		
 }
 
 .button {
 	background-color: #3E3544;
 	border-radius: 3px;
 	color: #ffffff;
-	float: right;
 	font-size: 16px;
-	height: 40px;
-    margin: auto;
-    /*position*/: absolute;
-    text-align: center;
-    width: 150px;
+	font-weight: bold; 	
+	height: 43px;
+    margin: 160px 0 0 550px;
+    position: absolute;
+    width: 160px;
 }
 
 hr {
-  width: 83%;
-  margin-left: 19%;
-  margin-bottom: 26px;
-  margin-top: 40px;
+    margin: 0 0 15px 55px;
+    width: 90%;
 }
 
 /********Footer*********/
 
-.footer {
+footer {
+	clear: both;
 	color: white;
 	background-color: #3E3544;
-	height: 15rem;
+	height: 175px;
 }
 
 h3 {
 	font-size: 25px;
     font-weight: 700;
-    margin-left: 67%;
-    margin-top: 30px;
+    margin: 30px 175px 0 0;
     position: absolute;
+    right: 1px;
 }
 
 .SM-links {
-	display: block;
-    height: 150px;
-    margin-left: 89%;
-    margin: 30px;
+    margin: 15px;
+    position: absolute;
+    right: 1px;
     width: 125px;
 }
 
@@ -199,8 +191,12 @@ h3 {
 .insta, 
 .FB, 
 .LI {
-	border: none;
-	float: right;
-	margin: 8px;
-	width: 41px;
+	float: left;
+	margin: 10px;
+	width: 39px;
 }
+
+.clearfix:after {
+    content: ' ';
+    display: block;
+    clear: both;
